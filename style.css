@@ -1,0 +1,147 @@
+/* ****************** */
+/* Common */
+/* ****************** */
+.btn {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+}
+
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+/* *************** */
+/* Header */
+/* *************** */
+
+header {
+  background: #fef2f2;
+  padding: 10px 30px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container a img {
+  width: 100px;
+}
+
+nav ul {
+  padding-left: 0px;
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+header ul li a {
+  text-decoration: none;
+}
+header ul li a.active,
+header ul li a:hover {
+  border-bottom: 4px solid blue;
+}
+
+/* ************************ */
+/* Main */
+/* ************************ */
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  width: 100%;
+}
+
+.content h1 {
+  margin-bottom: 10px;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+.banner img {
+  width: 600px;
+  padding: 10px;
+  padding-left: 0;
+}
+
+div.arrows {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding-left: 0;
+}
+.arrows img {
+  width: 10%;
+  height: 50%;
+  margin: 0 5px;
+}
+
+.arrows a {
+  margin: 0;
+}
+.content ul {
+  padding: 0 0;
+  padding-bottom: 0;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.content ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.content ul li:last-child {
+  margin-bottom: 0;
+}
+
+.content ul li span {
+  padding: 5px 20px;
+  display: inline-block;
+}
+
+.content ul li img {
+  width: 40px;
+  height: 40px;
+}
+.content ul li:hover,
+.content ul li.active {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.content ul li .title {
+  width: 150px;
+}
+
+.content ul li .tag {
+  width: 20px;
+  height: 14px;
+  border-radius: 10px;
+  background-color: red;
+  display: inline-block;
+}
+
+.content ul li .tag.lightred {
+  background: pink;
+}
+.content ul li .tag.red {
+  background: red;
+}
+.content ul li .tag.green {
+  background: green;
+}
+.content ul li .tag.lightorange {
+  background: orange;
+}
